@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://ibb.co.com/VNvNKpj';
+    let gifUrl = 'https://drive.google.com/uc?id=1NESymS7o3Q5Y1uyYCh3wZzVy03E3SMpx';
 let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Shuvo SARKAR  
+DEVELOPER :RaFi  
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=61555488497255
+https://www.facebook.com/profile.php?id=61563782144052
 
-🔵WHATSAPP NUMBER: wa.me/+8801928997305
+🔵WHATSAPP NUMBER: wa.me/+8801827237503
 
-🟢SUPPORT EMAIL: soukhinsarkar11@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: rijowan669@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
