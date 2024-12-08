@@ -10,7 +10,7 @@
   "banMsg": false,
   "adminOnlyMsg": false,
   "BOTNAME": "Sunny leone -bot",
-  "PREFIX": "/",
+  "PREFIX": "!",
   "OPERATOR": [
     "61563782144052",
     "100000959749712"
