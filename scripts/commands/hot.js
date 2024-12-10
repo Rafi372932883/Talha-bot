@@ -7,7 +7,7 @@ module.exports.config = {
   credits: "Nayan",
   description: "Random hot video",
   prefix: true,
-  category: "Media", 
+  category: "admin", 
   usages: "", 
   cooldowns: 5,
   dependencies: {
